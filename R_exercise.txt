@@ -1,0 +1,17 @@
+#A vector of courses
+myCourses <- c("Math 151", "Econ 501", "Stats 133", "BusMgt 330", "Finance 510", "CSE 200", "AcctMIS 521", "Chem 101", "Biology 101", "OpMgmt 630")
+
+#Length of vector myCourses
+length(myCourses)
+
+#First two courses from myCourses
+myCourses[1:2]
+
+#3rd and 4th courses from myCourses
+myCourses[3:4]
+
+#Sorting myCourses using a method
+sort(myCourses, decreasing = FALSE)
+
+#Sorting myCourses in the reverse direction
+sort(myCourses, decreasing = TRUE)
